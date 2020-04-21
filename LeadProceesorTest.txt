@@ -18,6 +18,6 @@ public class LeadProcessorTest {
         Test.stopTest();
 
         // after the testing stops, assert records were updated properly
-        System.assertEquals(200, [select count() from lead where Country = 'USA']);
+        System.assertEquals(200, [select count() from lead where Country = 'US']);
     }
 }
